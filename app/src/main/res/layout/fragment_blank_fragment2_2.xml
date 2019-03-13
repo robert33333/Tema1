@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BlankFragment2_2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button22A"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:id="@+id/txt_hello22"
+        android:layout_width="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment_22" />
+    <Button
+        android:id="@+id/button22A"
+        app:layout_constraintTop_toBottomOf="@id/txt_hello22"
+        app:layout_constraintBottom_toTopOf="@id/button22B"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button22A" />
+
+    <Button
+        android:id="@+id/button22B"
+        app:layout_constraintTop_toBottomOf="@id/button22A"
+        app:layout_constraintBottom_toTopOf="@id/button22C"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button22B" />
+
+    <Button
+        android:id="@+id/button22C"
+        app:layout_constraintTop_toBottomOf="@id/button22B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button22C" />
+
+</android.support.constraint.ConstraintLayout>
